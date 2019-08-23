@@ -29,3 +29,13 @@ Model–view–presenter (MVP) is a derivation of the model–view–controller 
 <li><code>base</code> - Contains base classes which contains common methods used in every class </li>
 <li><code>presenter</code> -Presenter contains classes which are used to generate Views and bind Objects to them on demand. It is closely related to the concept of an RecyclerView.Adapter, but is not position-based. The leanback framework implements the adapter concept using ObjectAdapter which refers to a Presenter (or PresenterSelector) instance. </li>
 </ul>
+
+
+#### The app has following packages:
+1. **api**: It contains all the Model and networking Api's.
+2. **ui**: View classes along with their corresponding Presenters.
+3. **utils**: Utility classes.
+
+
+
+
