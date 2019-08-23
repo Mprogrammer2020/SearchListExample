@@ -44,6 +44,10 @@ class Adapter internal constructor() : RecyclerView.Adapter<Adapter.ViewHolder>(
         items =temp
         notifyDataSetChanged()
     }
+    /**
+     * ViewHolder Class
+     * fetch Id's
+     * */
 
     inner class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView), View.OnClickListener {
 
@@ -55,19 +59,14 @@ class Adapter internal constructor() : RecyclerView.Adapter<Adapter.ViewHolder>(
         }
 
         fun bind(position: Int) {
-            if (selectedCat.contains(items!![position].nAme.toString())) {
-                mCheckedTextView.isChecked = true
-            } else {
-                mCheckedTextView.isChecked = false
-            }
-            /* if (!itemStateArray.get(position, false)) {
-                 mCheckedTextView.isChecked = false
-             } else {
-                 mCheckedTextView.isChecked = true
-             }*/
+            mCheckedTextView.isChecked = selectedCat.contains(items!![position].nAme.toString())
+
             mCheckedTextView.text = items!![position].nAme.toString()
         }
 
+        /**
+         * Handling Clicks of the views.
+         * */
         override fun onClick(v: View) {
             val adapterPosition = adapterPosition
             selectedCat.add(items!![adapterPosition].nAme.toString())
