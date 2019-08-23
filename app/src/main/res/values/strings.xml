@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Netset</string>
+    <string name="session_expire">You are unauthorized please login again.</string>
+</resources>
