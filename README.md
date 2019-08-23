@@ -1,5 +1,5 @@
 <p align="center"><img src="https://www.netsetsoftware.com/images2/logonetset.png"></p>
-<h1 align="center">Android Login Example using MVP Structure</h1>
+<h1 align="center">Android Search List Example using MVP Structure</h1>
 
 ## About Project
 <b>IDE Used</b> : Android Studio<br>
