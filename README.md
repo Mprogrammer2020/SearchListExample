@@ -19,7 +19,7 @@ Model–view–presenter (MVP) is a derivation of the model–view–controller 
 <li><a href="https://square.github.io/retrofit">Retrofit</a> - for networking</li>
 <li><a href="https://github.com/ReactiveX/RxJava">Rx-Java</a> - for multithreading</li>
 <li><a href="https://github.com/JetBrains/kotlin">Kotlin</a> - Language used</li>
-<li><a href="https://developer.android.com/jetpack/androidx">AndroidX</a> - Library</li>
+<li><a href="https://developer.android.com/jetpack/androidx">AndroidX</a> - Support Library</li>
 </ul>
 
 
