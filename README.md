@@ -9,7 +9,7 @@
 <b>Min Api Level</b> :19<br>
 <b>Max Api Level</b> :29<br>
 
-This project contain simple example of login using MVP structure. For networking : Retrofit and Rx-java are used.<br>
+This project contain simple example of search using MVP structure. For networking : Retrofit and Rx-java are used.<br>
 
 Model–view–presenter (MVP) is a derivation of the model–view–controller (MVC) architectural pattern which mostly used for building user interfaces. In MVP, the presenter assumes the functionality of the “middle-man”. In MVP, all presentation logic is pushed to the presenter. MVP advocates separating business and persistence logic out of the Activity and Fragment.
 
